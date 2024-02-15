@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 2; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 3; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -59,11 +59,21 @@ const pgData = [
     },
 
     {
-        pgNum: 2, //what page number it is
-        title: "Airlock", //the title of the page (leaving this blank will default it to "Page X")
-        date: writeDate(2024, 2, 14), //the date on which the page was posted (mainly for the archive). The date is written using a function called "writeDate", basically just put writeDate and then some parenthesis and, comma separated, the year followed by the month and the day. Don't forget another comma at the end outside the parenthesis!
-        altText: "", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
-        imageFiles: 1, //how many image files this page is split into
+        pgNum: 2, 
+        title: "Airlock", 
+        date: writeDate(2024, 2, 14), 
+        altText: "", 
+        imageFiles: 1, 
+        authorNotes: `
+            `,
+    },
+
+    {
+        pgNum: 3, 
+        title: "A Cock-on-lips Now", 
+        date: writeDate(2024, 2, 16), 
+        altText: "", 
+        imageFiles: 1, 
         authorNotes: `
             `,
     },

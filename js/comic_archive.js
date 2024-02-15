@@ -24,15 +24,13 @@ writeArchive("chapter3", 9, 12, -1, false,false);
 
 writeArchive("chapter4", 13, 15, -1, false,false);
 
-//below this point is stuff you don't really need to pay attention to if you're not super familiar with JS 
-
 function writeArchive(divClass, min, max, reverseOrder, useThumbs,useNums) {
-    //create a table to put the archive data
+    //creates a table to put the archive data
     let archiveTable = document.createElement("TABLE");
     archiveTable.setAttribute("class", "archiveTable"); //set class to archiveTable for css styling
     let getDiv = document.getElementsByClassName(divClass)[0]; //get div class
     getDiv.appendChild(archiveTable);
-    //make the table from the currently available comics
+    //makes the table from currently available comics
     for (i = min; i <= max; i++) {
         let row = archiveTable.insertRow(reverseOrder); //if reverseOrder is set to 0 it'll reverse the order, otherwise it'll display it in regular order
 
