@@ -80,7 +80,7 @@ const pgData = [
 
     {
         pgNum: 4, 
-        title: "Femboys", 
+        title: "Femboys*", 
         date: writeDate(2024, 2, 15), 
         altText: "", 
         imageFiles: 1, 
@@ -90,13 +90,14 @@ const pgData = [
 
     {
         pgNum: 5, 
-        title: "Wait", 
+        title: "Parthenon*", 
         date: writeDate(2024, 2, 16), 
         altText: "", 
         imageFiles: 1, 
         authorNotes: `
             `,
     },
+
 ];
 
 //below is a function you dont rly need to mess with but if you're more experienced with js you can
