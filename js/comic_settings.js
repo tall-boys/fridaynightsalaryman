@@ -74,7 +74,7 @@ const pgData = [
         date: writeDate(2024, 2, 14), 
         altText: "", 
         imageFiles: 1, 
-        authorNotes: `
+        authorNotes: ` <p> "Unless there are [penalty] provisions extraneous to any tax need, courts are without authority to limit the exercise of the taxing power." </p>
             `,
     },
 
