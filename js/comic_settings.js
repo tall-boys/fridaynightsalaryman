@@ -80,7 +80,7 @@ const pgData = [
 
     {
         pgNum: 4, 
-        title: "Femboys*", 
+        title: "Femboys", 
         date: writeDate(2024, 2, 15), 
         altText: "", 
         imageFiles: 1, 
