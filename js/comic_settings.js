@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 6; //the current number of comics in total. 
+const maxpg = 8; //the current number of comics in total. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -105,6 +105,26 @@ const pgData = [
         altText: "", 
         imageFiles: 1, 
         authorNotes: `
+            `,
+    },
+
+    {
+        pgNum: 7, 
+        title: "A Picture of Paul Daniels", 
+        date: writeDate(2024, 2, 19), 
+        altText: "", 
+        imageFiles: 1, 
+        authorNotes: `
+            `,
+    },
+
+    {
+        pgNum: 8, 
+        title: "Gloowolwkwmwmw", 
+        date: writeDate(2024, 2, 19), 
+        altText: "", 
+        imageFiles: 1, 
+        authorNotes: `I don't have much to say here this time.
             `,
     },
 
