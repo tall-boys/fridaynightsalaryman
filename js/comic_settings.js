@@ -61,7 +61,7 @@ const pgData = [
     {
         pgNum: 2, 
         title: "Airlock", 
-        date: writeDate(2024, 2, 13), 
+        date: writeDate(2024, 2, 14), 
         altText: "", 
         imageFiles: 1, 
         authorNotes: `
@@ -71,7 +71,7 @@ const pgData = [
     {
         pgNum: 3, 
         title: "A Cock-on-lips Now", 
-        date: writeDate(2024, 2, 14), 
+        date: writeDate(2024, 2, 16), 
         altText: "", 
         imageFiles: 1, 
         authorNotes: ` <p> "Unless there are [penalty] provisions extraneous to any tax need, courts are without authority to limit the exercise of the taxing power." </p>
@@ -81,7 +81,7 @@ const pgData = [
     {
         pgNum: 4, 
         title: "Femboys", 
-        date: writeDate(2024, 2, 15), 
+        date: writeDate(2024, 2, 19), 
         altText: "", 
         imageFiles: 1, 
         authorNotes: `
@@ -91,7 +91,7 @@ const pgData = [
     {
         pgNum: 5, 
         title: "Parthenon*", 
-        date: writeDate(2024, 2, 16), 
+        date: writeDate(2024, 2, 21), 
         altText: "", 
         imageFiles: 1, 
         authorNotes: `
@@ -101,7 +101,7 @@ const pgData = [
     {
         pgNum: 6, 
         title: "A Slight Curve", 
-        date: writeDate(2024, 2, 19), 
+        date: writeDate(2024, 2, 23), 
         altText: "", 
         imageFiles: 1, 
         authorNotes: `
@@ -111,7 +111,7 @@ const pgData = [
     {
         pgNum: 7, 
         title: "A Picture of Paul Daniels", 
-        date: writeDate(2024, 2, 19), 
+        date: writeDate(2024, 2, 26), 
         altText: "", 
         imageFiles: 1, 
         authorNotes: `
@@ -121,7 +121,7 @@ const pgData = [
     {
         pgNum: 8, 
         title: "Gloowolwkwmwmw", 
-        date: writeDate(2024, 2, 19), 
+        date: writeDate(2024, 2, 28), 
         altText: "", 
         imageFiles: 1, 
         authorNotes: `I don't have much to say here this time.
